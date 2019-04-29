@@ -28,7 +28,7 @@ public class ModelOnePc implements Computer {
     @Qualifier("amd")
     protected Processor processor;
 
-    @Value("${size}")
+    @Value("${size2}")
     private int size;
 
     public void compute() {

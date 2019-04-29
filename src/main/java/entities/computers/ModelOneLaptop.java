@@ -30,9 +30,8 @@ public class ModelOneLaptop implements Computer {
 
     protected Processor processor;
     protected Monitor monitor;
-
-    //    @Value("${unknown.param:70}")
-    @Value("${size}")
+    
+    @Value("${size1}")
     private int size;
 
     @Autowired

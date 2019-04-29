@@ -19,5 +19,6 @@ public class AppStarter {
         ModelOnePc secondPC = context.getBean("modelOnePc", ModelOnePc.class);
         firstPc.compute();
         log.info(firstPc.equals(secondPC));
+        context.close();
     }
 }

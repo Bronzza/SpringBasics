@@ -14,3 +14,12 @@
 2019-04-29 13:19:49 INFO  AmdProcessor:15 - AMD processor start working...
 2019-04-29 13:19:49 INFO  AppStarter:21 - false
 2019-04-29 13:19:49 INFO  ModelOneLaptop:58 - We are about to be turned off
+2019-04-29 18:55:16 INFO  ModelOneLaptop:52 - Plaging our cables, starting soon
+2019-04-29 18:55:16 INFO  ModelOneLaptop:45 - Computer ModelOneLaptop is turned on. Its size is= 70
+2019-04-29 18:55:16 INFO  IntelProcessor:15 - Intel processor start working...
+2019-04-29 18:55:16 INFO  SamsungMonitor:16 - Samsung monitor displays
+2019-04-29 18:55:16 INFO  AppStarter:16 - true
+2019-04-29 18:55:16 INFO  ModelOnePc:35 - Computer ModelOnePc is turned on. Its size is= 100
+2019-04-29 18:55:16 INFO  AmdProcessor:15 - AMD processor start working...
+2019-04-29 18:55:16 INFO  AppStarter:21 - false
+2019-04-29 18:55:16 INFO  ModelOneLaptop:57 - We are about to be turned off
