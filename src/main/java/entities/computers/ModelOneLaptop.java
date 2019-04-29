@@ -3,7 +3,9 @@ package entities.computers;
 import interfaces.Computer;
 import interfaces.Monitor;
 import interfaces.Processor;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,18 +23,17 @@ import javax.annotation.PreDestroy;
 @Setter
 @Log4j
 @Component
-@Scope(value = ConfigurableBeanFactory.SCOPE_SINGLETON)
 @PropertySource({"classpath:OneLaptop.properties"})
+@AllArgsConstructor
+@NoArgsConstructor
 public class ModelOneLaptop implements Computer {
 
     protected Processor processor;
     protected Monitor monitor;
 
+    //    @Value("${unknown.param:70}")
     @Value("${size}")
     private int size;
-
-    public ModelOneLaptop() {
-    }
 
     @Autowired
     public ModelOneLaptop(@Qualifier("intel") Processor processor, @Qualifier("samsung") Monitor monitor) {

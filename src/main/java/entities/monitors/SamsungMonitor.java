@@ -13,6 +13,6 @@ import org.springframework.stereotype.Component;
 public class SamsungMonitor implements Monitor {
 
     public void display() {
-        log.info("Samosung monitor displays");
+        log.info("Samsung monitor displays");
     }
 }
