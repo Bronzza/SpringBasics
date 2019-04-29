@@ -30,7 +30,7 @@ public class ModelOneLaptop implements Computer {
 
     protected Processor processor;
     protected Monitor monitor;
-    
+
     @Value("${size1}")
     private int size;
 
